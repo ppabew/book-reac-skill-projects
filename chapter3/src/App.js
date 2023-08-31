@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import MyComponent from './MyComponent';
+import Counter from './Counter';
 
 function App() {
-  const name = '리액트';
-  return <div className="react">{name}</div>;
+  return <Counter />;
 }
 
 export default App;
